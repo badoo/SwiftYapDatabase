@@ -12,6 +12,7 @@ let package = Package(
         ),
         .library(
             name: "SwiftYapDatabase",
+            type: .dynamic,
             targets: ["SwiftYapDatabase"]
         )
     ],
