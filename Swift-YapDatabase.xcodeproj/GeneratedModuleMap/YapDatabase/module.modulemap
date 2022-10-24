@@ -1,0 +1,4 @@
+module YapDatabase {
+    umbrella "/Users/jc/dev/bumble/SwiftYapDatabase/Sources/YapDatabase/include"
+    export *
+}
