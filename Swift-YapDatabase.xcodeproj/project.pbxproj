@@ -6,20 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"swiftyapdatabase::Swift-YapDatabasePackageTests::ProductTarget" /* Swift-YapDatabasePackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_290 /* Build configuration list for PBXAggregateTarget "Swift-YapDatabasePackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_293 /* PBXTargetDependency */,
-			);
-			name = "Swift-YapDatabasePackageTests";
-			productName = "Swift-YapDatabasePackageTests";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		49EDCB012906DA1900954D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EDCB002906DA1900954D1A /* UIKit.framework */; platformFilters = (ios, maccatalyst, tvos, watchos, ); };
 		49EDCB032906DA5400954D1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EDCB022906DA5400954D1A /* SystemConfiguration.framework */; platformFilters = (ios, maccatalyst, macos, tvos, ); };
@@ -33,7 +19,6 @@
 		49EDCB0C2906DA8D00954D1A /* YDBCKRecordTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDCAF52906D9A200954D1A /* YDBCKRecordTableInfo.m */; };
 		49EDCB0D2906DA8D00954D1A /* YapDatabaseViewLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDCAFC2906D9A200954D1A /* YapDatabaseViewLocator.m */; };
 		49EDCB0E2906DA8D00954D1A /* YapDatabaseViewPage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDCAF82906D9A200954D1A /* YapDatabaseViewPage.mm */; };
-		OBJ_288 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_300 /* YapDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* YapDatabase.swift */; };
 		OBJ_301 /* YapDatabaseQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* YapDatabaseQuery.swift */; };
 		OBJ_302 /* YapDatabaseActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* YapDatabaseActionManager.swift */; };
@@ -51,10 +36,6 @@
 		OBJ_314 /* YapDatabaseSecondaryIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* YapDatabaseSecondaryIndex.swift */; };
 		OBJ_315 /* YapDatabaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* YapDatabaseView.swift */; };
 		OBJ_317 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftyapdatabase::YapDatabase::Product" /* YapDatabase.framework */; };
-		OBJ_324 /* SwiftYapDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_274 /* SwiftYapDatabaseTests.swift */; };
-		OBJ_325 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_275 /* XCTestManifests.swift */; };
-		OBJ_327 /* SwiftYapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftyapdatabase::SwiftYapDatabase::Product" /* SwiftYapDatabase.framework */; };
-		OBJ_328 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftyapdatabase::YapDatabase::Product" /* YapDatabase.framework */; };
 		OBJ_335 /* YapDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* YapDatabaseConnection.m */; };
 		OBJ_336 /* YapDatabaseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* YapDatabaseCore.m */; };
 		OBJ_337 /* YapDatabaseOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* YapDatabaseOptions.m */; };
@@ -170,27 +151,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "swiftyapdatabase::YapDatabase";
 			remoteInfo = YapDatabase;
-		};
-		49EDCAC12906D8A900954D1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swiftyapdatabase::SwiftYapDatabase";
-			remoteInfo = SwiftYapDatabase;
-		};
-		49EDCAC22906D8A900954D1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swiftyapdatabase::YapDatabase";
-			remoteInfo = YapDatabase;
-		};
-		49EDCAC32906D8AA00954D1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swiftyapdatabase::SwiftYapDatabaseTests";
-			remoteInfo = SwiftYapDatabaseTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -486,7 +446,6 @@
 		OBJ_98 /* YapDatabaseRTreeIndexConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YapDatabaseRTreeIndexConnection.m; sourceTree = "<group>"; };
 		OBJ_99 /* YapDatabaseRTreeIndexHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YapDatabaseRTreeIndexHandler.m; sourceTree = "<group>"; };
 		"swiftyapdatabase::SwiftYapDatabase::Product" /* SwiftYapDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftYapDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swiftyapdatabase::SwiftYapDatabaseTests::Product" /* SwiftYapDatabaseTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftYapDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"swiftyapdatabase::YapDatabase::Product" /* YapDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YapDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -496,15 +455,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_317 /* YapDatabase.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_326 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_327 /* SwiftYapDatabase.framework in Frameworks */,
-				OBJ_328 /* YapDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,7 +811,6 @@
 			isa = PBXGroup;
 			children = (
 				"swiftyapdatabase::SwiftYapDatabase::Product" /* SwiftYapDatabase.framework */,
-				"swiftyapdatabase::SwiftYapDatabaseTests::Product" /* SwiftYapDatabaseTests.xctest */,
 				"swiftyapdatabase::YapDatabase::Product" /* YapDatabase.framework */,
 			);
 			name = Products;
@@ -962,7 +911,7 @@
 			path = Execution;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -973,7 +922,6 @@
 				OBJ_282 /* LICENSE.txt */,
 				49EDCAFF2906DA1900954D1A /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* Operations */ = {
@@ -1115,20 +1063,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"swiftyapdatabase::SwiftPMPackageDescription" /* Swift-YapDatabasePackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_284 /* Build configuration list for PBXNativeTarget "Swift-YapDatabasePackageDescription" */;
-			buildPhases = (
-				OBJ_287 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Swift-YapDatabasePackageDescription";
-			productName = "Swift-YapDatabasePackageDescription";
-			productType = "com.apple.product-type.framework";
-		};
 		"swiftyapdatabase::SwiftYapDatabase" /* SwiftYapDatabase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_296 /* Build configuration list for PBXNativeTarget "SwiftYapDatabase" */;
@@ -1145,24 +1079,6 @@
 			productName = SwiftYapDatabase;
 			productReference = "swiftyapdatabase::SwiftYapDatabase::Product" /* SwiftYapDatabase.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		"swiftyapdatabase::SwiftYapDatabaseTests" /* SwiftYapDatabaseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_320 /* Build configuration list for PBXNativeTarget "SwiftYapDatabaseTests" */;
-			buildPhases = (
-				OBJ_323 /* Sources */,
-				OBJ_326 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_329 /* PBXTargetDependency */,
-				OBJ_330 /* PBXTargetDependency */,
-			);
-			name = SwiftYapDatabaseTests;
-			productName = SwiftYapDatabaseTests;
-			productReference = "swiftyapdatabase::SwiftYapDatabaseTests::Product" /* SwiftYapDatabaseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		"swiftyapdatabase::YapDatabase" /* YapDatabase */ = {
 			isa = PBXNativeTarget;
@@ -1196,29 +1112,18 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_276 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"swiftyapdatabase::SwiftPMPackageDescription" /* Swift-YapDatabasePackageDescription */,
-				"swiftyapdatabase::Swift-YapDatabasePackageTests::ProductTarget" /* Swift-YapDatabasePackageTests */,
 				"swiftyapdatabase::SwiftYapDatabase" /* SwiftYapDatabase */,
-				"swiftyapdatabase::SwiftYapDatabaseTests" /* SwiftYapDatabaseTests */,
 				"swiftyapdatabase::YapDatabase" /* YapDatabase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_287 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_288 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_299 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -1239,15 +1144,6 @@
 				OBJ_313 /* YapDatabaseSearchResultsView.swift in Sources */,
 				OBJ_314 /* YapDatabaseSecondaryIndex.swift in Sources */,
 				OBJ_315 /* YapDatabaseView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_323 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_324 /* SwiftYapDatabaseTests.swift in Sources */,
-				OBJ_325 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1376,65 +1272,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_293 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swiftyapdatabase::SwiftYapDatabaseTests" /* SwiftYapDatabaseTests */;
-			targetProxy = 49EDCAC32906D8AA00954D1A /* PBXContainerItemProxy */;
-		};
 		OBJ_318 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swiftyapdatabase::YapDatabase" /* YapDatabase */;
 			targetProxy = 49EDCAC02906D8A900954D1A /* PBXContainerItemProxy */;
 		};
-		OBJ_329 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swiftyapdatabase::SwiftYapDatabase" /* SwiftYapDatabase */;
-			targetProxy = 49EDCAC12906D8A900954D1A /* PBXContainerItemProxy */;
-		};
-		OBJ_330 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swiftyapdatabase::YapDatabase" /* YapDatabase */;
-			targetProxy = 49EDCAC22906D8A900954D1A /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_285 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode-14.1.0-Release.Candidate.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -package-description-version 5.3.0";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_286 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode-14.1.0-Release.Candidate.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -package-description-version 5.3.0";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		OBJ_291 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_292 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		OBJ_297 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -1457,7 +1306,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftYapDatabase;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SwiftYapDatabase;
@@ -1470,8 +1318,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -1494,7 +1340,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftYapDatabase;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SwiftYapDatabase;
@@ -1506,6 +1351,7 @@
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1522,84 +1368,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
-		};
-		OBJ_321 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/YapDatabase/include",
-					"$(SRCROOT)/Swift-YapDatabase.xcodeproj/GeneratedModuleMap/YapDatabase",
-				);
-				INFOPLIST_FILE = "Swift-YapDatabase.xcodeproj/SwiftYapDatabaseTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Swift-YapDatabase.xcodeproj/GeneratedModuleMap/YapDatabase/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftYapDatabaseTests;
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Debug;
-		};
-		OBJ_322 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/YapDatabase/include",
-					"$(SRCROOT)/Swift-YapDatabase.xcodeproj/GeneratedModuleMap/YapDatabase",
-				);
-				INFOPLIST_FILE = "Swift-YapDatabase.xcodeproj/SwiftYapDatabaseTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Swift-YapDatabase.xcodeproj/GeneratedModuleMap/YapDatabase/module.modulemap";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftYapDatabaseTests;
-				TVOS_DEPLOYMENT_TARGET = 14.0;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
-			};
-			name = Release;
 		};
 		OBJ_332 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1635,7 +1411,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YapDatabase;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				TARGET_NAME = YapDatabase;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
@@ -1677,7 +1452,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YapDatabase;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				TARGET_NAME = YapDatabase;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
@@ -1688,6 +1462,7 @@
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -1701,8 +1476,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1723,38 +1498,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_284 /* Build configuration list for PBXNativeTarget "Swift-YapDatabasePackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_285 /* Debug */,
-				OBJ_286 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_290 /* Build configuration list for PBXAggregateTarget "Swift-YapDatabasePackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_291 /* Debug */,
-				OBJ_292 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		OBJ_296 /* Build configuration list for PBXNativeTarget "SwiftYapDatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_297 /* Debug */,
 				OBJ_298 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_320 /* Build configuration list for PBXNativeTarget "SwiftYapDatabaseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_321 /* Debug */,
-				OBJ_322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
